@@ -22,6 +22,7 @@
     "express-winston": "^4.1.0",
     "http-status": "^1.5.0",
     "jsonwebtoken": "^8.5.1",
+    "sequelize": "^6.6.2",
     "winston": "^3.3.3"
   },
   "devDependencies": {
