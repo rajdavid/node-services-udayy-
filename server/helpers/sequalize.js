@@ -1,8 +1,8 @@
 import { Sequelize } from 'sequelize';
 import config from '../../config/env';
-const sequelize = new Sequelize('bot_store', config.mySqlUserName, config.mySqlPassword, {
-  host: config.mySqlPvt,
-  port: config.mySqlPort,
-  dialect: 'mysql',
+const sequelize = new Sequelize(config.database, config.user, config.password, {
+  host: config.host,
+  port: config.port,
+  dialect: 'postgres',
 });
 export default sequelize;
