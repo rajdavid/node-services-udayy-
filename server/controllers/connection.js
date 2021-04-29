@@ -3,7 +3,7 @@ import  PostGresConnection from '../helpers/sequalize'
 
 
 async function getConnection(req, res) {
-  console.log('Post Gress Conncetion  ');
+  console.log('Post Gress Conncetion ');
  
   try {
     await PostGresConnection.authenticate();

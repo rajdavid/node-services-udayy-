@@ -7,5 +7,5 @@ const router = express.Router();
 // added some comment
 // mount auth routes at /auth
 router.get('/health-check', healthCtrl.checkConnection);
-router.get('/connetion', getConnection);
+router.get('/connection', getConnection);
 export default router;
