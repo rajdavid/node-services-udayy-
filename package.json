@@ -21,8 +21,8 @@
     "express-winston": "^4.1.0",
     "http-status": "^1.5.0",
     "jsonwebtoken": "^8.5.1",
-    "winston": "^3.3.3",
-    "gulp": "^4.0.2"
+    "winston": "^3.3.3"
+    
   },
   "devDependencies": {
     "@babel/core": "^7.6.2",
@@ -35,6 +35,7 @@
     "coveralls": "^3.0.6",
     "del": "^5.1.0",
     "ghooks": "^2.0.4",
+    "gulp": "^4.0.2",
     "gulp-babel": "^8.0.0",
     "gulp-concat": "^2.6.1",
     "gulp-load-plugins": "^2.0.1",
