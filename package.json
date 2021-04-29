@@ -1,0 +1,48 @@
+{
+  "name": "calendarudayy",
+  "version": "1.0.0",
+  "description": "services for calendar",
+  "main": "index.js",
+  "engines": {
+    "node": ">=8.9.0",
+    "npm": ">=5.0.3"
+  },
+  "scripts": {
+    "start": "gulp serve",
+    "started": "node dist",
+    "build": "gulp",
+    "report-coverage": "coveralls < ./coverage/lcov.info"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-validation": "^3.0.8",
+    "express-winston": "^4.1.0",
+    "http-status": "^1.5.0",
+    "jsonwebtoken": "^8.5.1",
+    "path": "^0.12.7",
+    "winston": "^3.3.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.2",
+    "@babel/plugin-transform-runtime": "^7.6.2",
+    "@babel/preset-env": "^7.6.2",
+    "@babel/register": "^7.6.2",
+    "babel-plugin-add-module-exports": "^1.0.2",
+    "babel-preset-stage-2": "^6.24.1",
+    "core-js": "^3.2.1",
+    "coveralls": "^3.0.6",
+    "del": "^5.1.0",
+    "ghooks": "^2.0.4",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-load-plugins": "^2.0.1",
+    "gulp-newer": "^1.4.0",
+    "gulp-nodemon": "^2.4.2",
+    "gulp-uglify": "^3.0.2"
+  },
+  "author": "davidraj"
+}

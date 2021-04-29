@@ -1,0 +1,17 @@
+{
+  "apps": [
+    {
+      "name": "re-node-utility-service",
+      "script": "./dist/index.js",
+      "env": {
+        "NODE_ENV": "development"
+      },
+      "env_production": {
+        "NODE_ENV": "production"
+      },
+      "env_test": {
+        "NODE_ENV": "test"
+      }
+    }
+  ]
+}
