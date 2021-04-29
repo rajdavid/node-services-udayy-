@@ -59,6 +59,7 @@ app.use((req, res, next) => {
   next();
 });
 // some comment
+// some comment 2
 app.get('/node/api', (req, res) => {
   res.sendFile(path.resolve(__dirname, '../../public/index.html'));
 });
