@@ -1,4 +1,5 @@
 export default {
-  env: 'development',
+  env: 'production',
   port: 3001,
+  
 };
